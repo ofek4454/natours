@@ -32,6 +32,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // implement CORS
 app.use(cors());
 
+app.options('*', cors());
+
 // Security HTTP headers
 
 app.use(helmet());
