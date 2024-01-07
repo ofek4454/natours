@@ -156,12 +156,12 @@ tourSchema.pre(/^find/, function (next) {
   next();
 });
 
-tourSchema.post(/^find/, function (docs, next) {
-  if (process.env.NODE_ENV === 'development')
-    // eslint-disable-next-line no-console
-    console.log(`Query took ${Date.now() - this.start}ms`);
-  next();
-});
+// tourSchema.post(/^find/, function (docs, next) {
+//   if (process.env.NODE_ENV === 'development')
+//     // eslint-disable-next-line no-console
+//     console.log(`Query took ${Date.now() - this.start}ms`);
+//   next();
+// });
 
 // AGGREGATION MIDDLEWARE
 
