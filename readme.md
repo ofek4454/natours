@@ -8,3 +8,8 @@ Used technologies:
 - Express
 - MongoDB
 - mongoose
+- PUG templates
+
+## API Documentation
+
+https://documenter.getpostman.com/view/12238337/2s9YsJAsHR
