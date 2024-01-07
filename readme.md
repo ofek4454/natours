@@ -12,4 +12,4 @@ Used technologies:
 
 ## API Documentation
 
-https://documenter.getpostman.com/view/12238337/2s9YsJAsHR
+[API Documentation](https://documenter.getpostman.com/view/12238337/2s9YsJAsHR)
