@@ -37,7 +37,7 @@ process.on('unhandledRejection', (err) => {
   });
 });
 
-process.on('SIGTEM', () => {
+process.on('SIGTERM', () => {
   console.log('👋  SIGTERM RECIVED, Shutting down gracefully.');
   server.close(() => {
     console.log('💥 Proccess terminated!');
